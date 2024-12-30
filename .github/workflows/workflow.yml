@@ -24,7 +24,7 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
       - name: Install Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
       - name: Install Node
         uses: actions/setup-node@v3
       - name: Install Bun
@@ -60,7 +60,7 @@ jobs:
           path: frameworks/*/results/hello_bench.json
           key: 'hello_bench-results-${{ github.run_id }}'
       - name: Install Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
       - name: Generate README.md
         run: deno task readme
       - name: Push changes

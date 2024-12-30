@@ -14,9 +14,9 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup latest deno version
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
         with:
-          deno-version: v1.x
+          deno-version: v2.x
 
 # Disabled because it attempts to check result json files which will not work!
 #      - name: Run deno fmt

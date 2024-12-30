@@ -102,7 +102,7 @@ if (import.meta.main) {
       ...loadCaches,
       {
         name: "Install Deno",
-        uses: "denoland/setup-deno@v1",
+        uses: "denoland/setup-deno@v2",
       },
       {
         name: "Generate README.md",
