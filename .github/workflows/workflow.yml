@@ -2,9 +2,8 @@
 # Please do not edit manually, instead run deno task workflow
 
 name: bench
-'on':
-  schedule:
-    - cron: 0 0 * * *
+on:
+  workflow_dispatch:
   push:
     paths:
       - '**.ts'
