@@ -43,7 +43,7 @@ if (import.meta.main) {
         },
         {
           name: "Install Deno",
-          uses: "denoland/setup-deno@v1",
+          uses: "denoland/setup-deno@v2",
         },
         {
           name: "Install Node",
